@@ -1,0 +1,54 @@
+.paymentDetails {
+    max-width: 600px; /* Maximum width for the container */
+    margin: 40px auto; /* Center the container with margin on top/bottom */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f8f8f8; /* Light background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.paymentDetails h2 {
+    text-align: center; /* Centered heading */
+    margin-bottom: 25px; /* Increased margin below heading */
+}
+
+.paymentDetailsForm {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.formGroup {
+    margin-bottom: 20px; /* Increased margin for better spacing between form groups */
+}
+
+.formGroup label {
+    display: block; /* Block display for labels */
+    font-weight: bold; /* Bold text for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    font-size: 16px; /* Font size for inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    resize: vertical; /* Allow vertical resizing for textareas */
+}
+
+.submitBtn {
+    background: #f0c14b; /* Button background color */
+    border-radius: 2px; /* Rounded corners for button */
+    width: 100%; /* Full width button */
+    height: 40px; /* Increased button height for better click area */
+    border: 1px solid; /* Border for button */
+    margin-top: 15px; /* Increased top margin for better spacing */
+    border-color: #a88734 #9c7e31 #846a29; /* Button border color */
+    color: #111; /* Text color */
+    cursor: pointer; /* Pointer cursor for button */
+}
+
+.submitBtn:hover {
+    background-color: beige; /* Background color on hover */
+}

@@ -1,0 +1,22 @@
+.payment-successful {
+    text-align: center; /* Center the text */
+    margin: 40px auto; /* Center the container with auto margins */
+    padding: 20px; /* Add padding for internal spacing */
+    border: 1px solid #dcdcdc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Limit width for better readability */
+}
+
+.payment-successful h3 {
+    font-size: 28px; /* Increased font size for heading */
+    color: #4CAF50; /* Green color for the heading */
+    margin-bottom: 15px; /* Space below heading */
+}
+
+.payment-successful p {
+    font-size: 18px; /* Increased font size for paragraphs */
+    color: #555; /* Dark gray color */
+    margin: 10px 0; /* Space between paragraphs */
+}
